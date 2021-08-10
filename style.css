@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(0deg,
+    rgb(247,247,247) 23.8%,
+    rgb(252,221,221) 92%
+    );
+}
+
+.cont{
+    height: 65vh;
+    width: 18vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+    position: absolute;
+    left: 40.5%;
+    margin-top:5%;
+    
+    
+    
+    
+}
+.a1{
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 4px;
+    
+
+}
+.a2{
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: grey ;
+   
+
+}
+.c1{
+    margin-top: 60px;
+    
+}
+.cont1{
+    width: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.b2{
+    margin:0 20px ;
+}
+.appl{
+    background: url("/butt/pngfind.com-youtube-button-png-200711.png") no-repeat 40px;
+}
+
+
+button{
+    background-color: #fff;
+    border: 0;
+    color: #dfdbdf;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px;
+    margin: 0 20px;
+}
+.btn{
+    color: #cdc2d0;
+    font-size: 30px;
+}
+.btn:focus{
+    outline: 0;
+}
+
+.owner{
+    color: #cdc2d0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    margin-top: 28.5vw;
+    font-size: 1.5vw;
+    left: 65%;
+    padding:3vw 1vw;
+    background-color: white;
+    box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+
+    border-radius: 10px;
+}
+.apo{
+    font-size:3.5vw;
+    text-align: center;
+    margin-top: 3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+
+}
+
+
+
+
+.animat{
+    animation: son 5s linear infinite ;
+}
+
+@keyframes son{
+   
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}
+
+
+@media screen and (max-width:1000px){
+
+    .cont{
+        width: 30%;
+        left:36%;
+    }
+    .owner{
+        left: 70%;
+        margin-top: 55vw;
+    }
+    
+}
