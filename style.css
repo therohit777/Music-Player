@@ -93,7 +93,7 @@ button{
     border-radius: 10px;
 }
 .apo{
-    font-size:3.5vw;
+    font-size:40px;
     text-align: center;
     margin-top: 3vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -123,12 +123,22 @@ button{
 @media screen and (max-width:1000px){
 
     .cont{
-        width: 30%;
-        left:36%;
+        width: 40%;
+        left:30%;
     }
     .owner{
         left: 70%;
         margin-top: 55vw;
     }
     
+}
+@media screen and (max-width:500px){
+    .cont{
+        width: 60%;
+        left: 20%;
+    }
+    .owner{
+        margin-top: 75vh;        
+    }
+
 }
